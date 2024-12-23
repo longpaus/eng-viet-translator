@@ -48,3 +48,13 @@ To translate an English sentence into Vietnamese, run the `run.py` script with t
 ```bash
 python3 run.py "Your English sentence here."
 ```
+
+## Dataset
+The model is trained on the English-Vietnamese Translation dataset available on Kaggle.
+
+## Implementation Details
+- From Scratch: The entire model is implemented from scratch in PyTorch, including all components of the Transformer architecture.
+
+- Greedy Decoding: The run.py script uses greedy decoding to generate the translated output sequence.
+
+- SentencePiece Tokenization: SentencePiece is used for subword tokenization of both English and Vietnamese sentences.
