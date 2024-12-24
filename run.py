@@ -57,7 +57,7 @@ def main():
     h = 8
     vocab_size = len(sp)
     max_seq_len = 128
-    N = 4
+    N = 6
     d_ff = 2048
     
     pad_token = 0
